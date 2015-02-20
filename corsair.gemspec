@@ -10,8 +10,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Varvet"]
   gem.email         = ["info@varvet.se"]
   gem.homepage      = "https://github.com/varvet/corsair"
-  gem.summary       = ""
-  gem.description   = ""
+  gem.summary       = "Rack middleware for CORS responses in simple requests"
+  gem.description   = "Corsair adds Access-Control-Allow-Origin to the response headers, even if your app raises an error."
   gem.license       = "MIT"
 
   gem.files         = `git ls-files -z`.split("\x0")
