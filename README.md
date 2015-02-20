@@ -1,6 +1,6 @@
 # Corsair
 
-A Rack middleware that adds the CORS Access-Control-Allow-Origin header to your application, even if the app raised an exception.
+A Rack middleware that adds the simple request CORS Access-Control-Allow-Origin header to your application, even if the app raised an exception.
 
 ## Installation
 
