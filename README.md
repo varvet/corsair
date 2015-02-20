@@ -16,7 +16,7 @@ config.middleware.insert_before 0, "Rack::Corsair"
 
 ## Options
 
-By default, Corsair will add "Access-Control-Allow-Origin: *" to all your response headers. You can currently control which domain gets added instead of "*", and which resources get the header added. You pass those options in a block, like this:
+By default, Corsair will add `Access-Control-Allow-Origin: *` to all your response headers. You can currently control which domain gets added instead of `*`, and which resources get the header added. You pass those options in a block, like this:
 ```ruby
 config.middleware.insert_before 0, "Rack::Corsair" do |corsair|
   corsair.allow_origin "*"
